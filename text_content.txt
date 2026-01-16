@@ -1,0 +1,34 @@
+Navigation section
+
+1. log 
+    charles Ssenkaayi
+
+2. nav links
+    home
+    bout
+    skills & expirience
+    projects
+    contact 
+
+hero section
+
+1. Main heading
+    javascript fullastack developer 
+
+2. paragraph
+    profesional web developer, with two years expirience in developement of responsive, robust and 
+    scalable web applications. 
+
+3. links
+    download cv
+    contatct icons
+
+about us
+
+Skills and expirience
+
+projects
+
+contact
+
+footer
