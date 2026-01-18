@@ -13,10 +13,10 @@ Navigation section
 
 2. nav links
     home
-    bout
-    skills & expirience
-    projects
-    contact 
+    bout me
+    skills
+    expirience
+    contacts 
 
 hero section
 
@@ -38,12 +38,25 @@ about us
     computer science graduate with a fascination to craft web applications that 
     simplify day to day  businesses operations in a digital way. 
 
-Skills and expirience
+Skills 
 
     Skilled in text markup, styling, and programming, with a mastery in the tech stack below.
 
-projects
+Expirience
+    
+    project image
+    project name
+    project url
+    project description
 
 contact
 
+    full names
+    sender email address
+    message
+
 footer
+
+    logo 
+    mini nav links
+    social contact
