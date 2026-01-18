@@ -3,6 +3,8 @@ images: https://undraw.co/
 colour: https://yeun.github.io/open-color/
 icons : https://ionic.io/ionicons
 
+colors: base #38d9a9 / tint #63e6be / shade #20c997 
+
 
 Navigation section
 
@@ -24,7 +26,7 @@ hero section
     And i'am javascript developer 
 
 2. paragraph
-    profesional web developer, with two years expirience in developement of responsive, robust and 
+    profesional web developer, with two years expirience in crafting responsive, robust and 
     scalable fullastack web applications. 
 
 3. links
@@ -33,10 +35,12 @@ hero section
 
 about us
 
-    my background in computer science, work expirence, and personal projects back up my knowlodge and 
-    hands on skills in development real world frontend and backend applications.
+    computer science graduate with a fascination to craft web applications that 
+    simplify day to day  businesses operations in a digital way. 
 
 Skills and expirience
+
+    Skilled in text markup, styling, and programming, with a mastery in the tech stack below.
 
 projects
 
