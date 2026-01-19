@@ -1,0 +1,60 @@
+/* 
+
+-------------------- STYLING GUIDE --------------------
+
+Content css
+
+    style
+    size
+    space / centering / alignment
+    font family
+    color
+
+Content Box css
+
+    style
+    size
+    space / centering / alignment
+    back-ground color
+
+Container Box css
+
+    style
+    size
+    space / centering / alignment
+
+*/
+
+/* 
+
+-------------------- STYLE RESOURCE CENTER --------------------
+
+--------- Content css ---------
+
+Typography
+
+    font weight: 700 -> h1-h6 / 500 -> defualt 
+    list style: none 
+    text-decorator: none
+    size (scale 1.5): 
+    text-aligment: center -> h1-h2 / left ->defualt
+    line height: 1.25 -> defualt / 1.5 -> h1 -> h6
+    letter space: 0 -> defualt / -2px h1 - h6
+    font-family: poppins, 'san-serif'
+
+Color 
+
+    primary: base #38d9a9 / tint #63e6be / shade #20c997 
+    secondary
+    tatiary
+    Gray
+    white
+    black
+
+--------- Content css box ---------
+
+
+
+--------- Container css box ---------
+*/
+
