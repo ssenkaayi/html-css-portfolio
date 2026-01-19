@@ -36,7 +36,7 @@ Typography
     font weight: 700 -> h1-h6 / 500 -> defualt 
     list style: none 
     text-decorator: none
-    size (scale 1.5): 
+    size (scale 1.5):  12px -> sm / 16px -> a / 20px -> p / 24px -> h5 / 30px -> h4 / 36px -> h3 / 48px -> h2 / 60px -> h1 / 
     text-aligment: center -> h1-h2 / left ->defualt
     line height: 1.25 -> defualt / 1.5 -> h1 -> h6
     letter space: 0 -> defualt / -2px h1 - h6
