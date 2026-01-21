@@ -56,5 +56,67 @@ Color
 
 
 --------- Container css box ---------
+
+
 */
 
+h1{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    letter-spacing: -2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    letter-spacing: -2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h4{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+h5{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
