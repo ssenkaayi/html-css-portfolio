@@ -178,5 +178,22 @@ li{
 
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
+}
+
+.hero-section{
+
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image{
+    width: 300px;
+}
+
+.hero-h3{
+    font-weight: 500;
 }
