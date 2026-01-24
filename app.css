@@ -44,10 +44,10 @@ Typography
 
 Color 
 
-    primary: base #38d9a9 / tint #63e6be / shade #20c997 
+    primary: base #0ca678 / tint #20c997 / shade #087f5b
     secondary
     tatiary
-    Gray: base #343a40 / tint #495057 / shade #212529
+    Gray: base #495057 / tint #ced4da / shade #212529
     white: #ffffff
     black: #000000
 
@@ -56,6 +56,12 @@ Color
 
 
 --------- Container css box ---------
+
+nav-section
+
+    height:80px
+    display:flex
+    flex-direction: row
 
 
 */
@@ -72,7 +78,7 @@ body{
     line-height: 1.25;
     letter-spacing: 0;
     font-weight: 500;
-    color: #343a40 ;
+    color: #495057 ;
 
 }
 
@@ -132,11 +138,11 @@ li{
 }
 
 .logo{
-    color: #000000;
+    color: #ffffff;
 }
 
 .main-lang{
-    color: #38d9a9;
+    color: #0ca678;
 }
 
 .nav-links{
@@ -146,20 +152,31 @@ li{
     
 }
 .nav-links:link,.nav-links:visited{
-    color: #000000;
+    color: #ffffff;
 
 }
 
 .nav-links:hover,.nav-links:active{
-    color: #000000;
+    color: #ced4da;
 }
 
 /* ------------------ SECTIONS ------------------ */
 
-/* 
+/* --------- NAV SECTION --------- */
 
------------------- NAV SECTION ------------------
+.nav-section{
 
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #087f5b;
+}
 
+.nav-menu{
 
-*/
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
