@@ -60,18 +60,13 @@ Color
 
 */
 
-h1,h2,h3,h4,h5{
-
-    font-family: "Poppins", sans-serif;
-    line-height: 1.5;
-    letter-spacing: -2px;
-    text-align: center;
-    font-weight: 700;
-    color: #212529;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p,a{
+body{
 
     font-family: "Poppins", sans-serif;
     line-height: 1.25;
@@ -80,6 +75,25 @@ p,a{
     color: #343a40 ;
 
 }
+
+h1,h2,h3,h4,h5{
+
+    line-height: 1.5;
+    letter-spacing: -2px;
+    text-align: center;
+    font-weight: 700;
+    color: #212529;
+
+}
+
+/* p,a{
+
+    line-height: 1.25;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #343a40 ;
+
+} */
 
 h1{
 
@@ -139,3 +153,13 @@ li{
 .nav-links:hover,.nav-links:active{
     color: #000000;
 }
+
+/* ------------------ SECTIONS ------------------ */
+
+/* 
+
+------------------ NAV SECTION ------------------
+
+
+
+*/
