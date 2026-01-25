@@ -145,6 +145,8 @@ li{
     color: #0ca678;
 }
 
+/* ------------------ COMPONENTS ------------------ */
+
 .nav-links{
 
     text-decoration: none;
@@ -158,6 +160,29 @@ li{
 
 .nav-links:hover,.nav-links:active{
     color: #ced4da;
+}
+
+.btn{
+    
+    text-decoration: none;
+    font-size: 16px; 
+    display: inline-block;
+}
+
+.btn-download-cv{
+
+    padding: 10px 20px;
+    border-radius: 50px;    
+}
+
+.btn-download-cv:link , .btn-download-cv:visited{
+    color: #ffffff;
+    background-color: #087f5b;
+}
+
+.btn-download-cv:hover, .btn-download-cv:active{
+    color: #ffffff;
+    background-color: #0ca678;
 }
 
 /* ------------------ SECTIONS ------------------ */
@@ -224,4 +249,8 @@ li{
 .hero-social-links{
 
     margin-bottom: 20px;
+}
+
+.hero-social-icons{
+    width: 20px;
 }
