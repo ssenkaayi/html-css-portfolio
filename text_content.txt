@@ -62,3 +62,8 @@ footer
     logo 
     mini nav links
     social contact
+
+PROJECT CHALLANGES
+
+1. The psudo class states dont work on an anchor tag if does not have href attribute.
+e.g the download cv button was not recieving the state style class with out href attribute.

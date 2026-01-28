@@ -131,6 +131,7 @@ p{
 a{
     text-decoration: none;
     font-size: 16px;
+    display: inline-block;
 }
 
 li{
@@ -248,9 +249,22 @@ li{
 
 .hero-social-links{
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .hero-social-icons{
     width: 20px;
+}
+
+.hero-icon{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0ca678;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
