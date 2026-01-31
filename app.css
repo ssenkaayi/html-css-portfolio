@@ -36,7 +36,7 @@ Typography
     font weight: 700 -> h1-h6 / 500 -> defualt 
     list style: none 
     text-decorator: none
-    size (scale 1.5):  12px -> sm / 16px -> a / 20px -> p / 24px -> h5 / 30px -> h4 / 36px -> h3 / 48px -> h2 / 60px -> h1 / 
+    size (scale 1.5):  12px -> sm / 16px -> a / 20px -> p / 24px -> h5 / 32px -> h4 / 40px -> h3 / 48px -> h2 / 62px -> h1 / 
     text-aligment: center -> h1-h2 / left ->defualt
     line height: 1.25 -> defualt / 1.5 -> h1 -> h6
     letter space: 0 -> defualt / -2px h1 - h6
@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5{
 
 h1{
 
-    font-size: 60px;
+    font-size: 62px;
 }
 
 h2{
@@ -113,11 +113,13 @@ h2{
 
 h3{
 
-    font-size: 36px;
+    font-size: 40px;
+    
 }
 
 h4{
-    font-size: 30px;
+    font-size: 32px;
+    text-align: left;
 }
 
 h5{
@@ -241,6 +243,7 @@ li{
 
 .hero-para{
     margin-top: 40px;
+    padding-right: 5px;
 }
 
 .hero-links{
@@ -267,4 +270,72 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* --------- ABOUT USS SECTION --------- */
+
+.aboutus-section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color:#20c997 ;
+    margin-bottom: 100px;
+}
+
+.aboutus-heading{
+    margin-bottom: 10px;
+}
+
+/* .aboutus-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.aboutus-image{
+    width:400px; 
+}
+
+/* .aboutus-para{
+    padding-left: 20px;
+} */
+
+/* --------- SKILL SECTION --------- */
+
+.skill-section{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.skill-section-heading{
+    margin-bottom: 10px;
+}
+
+.skill-section-para{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-section-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-section-card{
+    border: 2px solid #0ca678;
+    border-radius: 25px;
+    width: 300px;
+    padding: 40px 20px;
+    /* background-color:#20c997 ; */
+
+}
+
+.card-heading{
+    margin-bottom: 10px;
 }
