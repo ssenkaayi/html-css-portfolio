@@ -339,3 +339,28 @@ li{
 .card-heading{
     margin-bottom: 10px;
 }
+
+/* --------- EXPERIENCE SECTION --------- */
+.expirience-heading{
+    margin-bottom: 50px;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-card{
+
+    border: 2px solid #495057;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.project-image{
+    width: 400px;
+    border-radius: 20px;
+}
