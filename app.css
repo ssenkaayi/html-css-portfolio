@@ -341,14 +341,19 @@ li{
 }
 
 /* --------- EXPERIENCE SECTION --------- */
-.expirience-heading{
+
+.project-section{
+    margin-bottom: 100px;
+}
+
+.project-heading{
     margin-bottom: 50px;
 }
 
 .project-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     align-items: center;
 }
 
@@ -361,6 +366,49 @@ li{
 }
 
 .project-image{
-    width: 400px;
+    width: 500px;
     border-radius: 20px;
+    
+}
+
+
+/* --------- CONTACT SECTION --------- */
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------- FOOTER  SECTION --------- */
+
+.footer-section{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.footer-social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
