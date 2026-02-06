@@ -44,9 +44,9 @@ Typography
 
 Color 
 
-    primary: base #0ca678 / tint #20c997 / shade #087f5b
-    secondary
-    tatiary
+    primary: base #087f5b / tint #39997c / shade #066649
+    secondary : base #5b087f / tint #7c3999 / shade #490666
+    tatiary: base #7f5b08 / tint #997c39 / shade #664906 
     Gray: base #495057 / tint #ced4da / shade #212529
     white: #ffffff
     black: #000000
@@ -328,7 +328,8 @@ li{
 }
 
 .skill-section-card{
-    border: 2px solid #0ca678;
+    border: 2px solid #997c39;
+    background-color: #d9ceb5;
     border-radius: 25px;
     width: 300px;
     padding: 40px 20px;
@@ -361,12 +362,13 @@ li{
 
     border: 2px solid #495057;
     padding: 5px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    width: 500px;
 
 }
 
 .project-image{
-    width: 500px;
+    width: 100%;
     border-radius: 20px;
     
 }
@@ -386,6 +388,10 @@ li{
 .form-field{
     display: flex;
     flex-direction: column;
+}
+
+.form-btn{
+    width: 100%;
 }
 
 /* --------- FOOTER  SECTION --------- */
