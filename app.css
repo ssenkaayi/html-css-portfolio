@@ -66,7 +66,41 @@ nav-section
 
 */
 
+/*------------------------  DECLAERING AND ASSIGNING GLOBAL VARIABLES ------------------------ */
 
+:root{
+
+    /*----------- COLOR SECTION ----------- */
+
+    --primary-base: #087f5b;
+    --primary-tint: #39997c;
+    --primary-shade: #066649;
+
+    --secondary-base:#5b087f;
+    --secondary-tint:#7c3999;
+    --secondary-shade:#490666;
+
+    --tertiary-base:#7f5b08;
+    --tertiary-tint:#997c39;
+    --tertiary-shade:#664906;
+
+    --gray-base:#495057;
+    --gray-tint:#ced4da;
+    --gray-shade:#212529;
+
+    --white:#ffffff;
+    --black:#000000;
+
+    /*----------- SECTION SPACING ----------- */
+    
+    --section-spacing:100px;
+
+    /*----------- SECTION HEIGHT ----------- */
+    
+    --section-height:100vh;
+
+
+}
 
 *{
     margin: 0;
@@ -149,11 +183,11 @@ li{
 }
 
 .logo{
-    color: #ffffff;
+    color:var(--white);
 }
 
 .main-lang{
-    color: #0ca678;
+    color: var(--primary-base);
 }
 
 /* ------------------ COMPONENTS ------------------ */
@@ -165,12 +199,12 @@ li{
     
 }
 .nav-links:link,.nav-links:visited{
-    color: #ffffff;
+    color:var(--white);
 
 }
 
 .nav-links:hover,.nav-links:active{
-    color: #ced4da;
+    color:var(--gray-tint);
 }
 
 .btn{
@@ -187,13 +221,13 @@ li{
 }
 
 .btn-download-cv:link , .btn-download-cv:visited{
-    color: #ffffff;
-    background-color: #087f5b;
+    color:var(--white);
+    background-color: var(--primary-base);
 }
 
 .btn-download-cv:hover, .btn-download-cv:active{
-    color: #ffffff;
-    background-color: #0ca678;
+    color:var(--white);
+    background-color: var(--primary-shade);
 }
 
 /* ------------------ SECTIONS ------------------ */
@@ -207,7 +241,7 @@ li{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #087f5b;
+    background-color:var(--primary-base);
     padding: 0 20px;
 }
 
@@ -220,7 +254,7 @@ li{
 
 .hero-section{
 
-    height: calc(100vh - 80px);
+    height: calc( var(--section-height) - 80px);
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: center;
@@ -235,7 +269,7 @@ li{
 .hero-img-container{
     width: 350px;
     height: 350px;
-    border: solid 2px #087f5b;
+    border: solid 2px var(--primary-base);
     border-radius: 175px;
     display: flex;
     align-items: center;
@@ -275,7 +309,7 @@ li{
 .hero-icon{
     width: 40px;
     height: 40px;
-    border: 2px solid #0ca678;
+    border: 2px solid var(--primary-base);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -285,13 +319,13 @@ li{
 /* --------- ABOUT USS SECTION --------- */
 
 .aboutus-section{
-    height: 100vh;
+    height:var(--section-height);
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: center;
     align-items: center;
-    background-color:#20c997 ;
-    margin-bottom: 100px;
+    background-color:var(--primary-tint);
+    margin-bottom:var(--section-spacing);
     padding: 0 20px;
 }
 
@@ -308,7 +342,7 @@ li{
 } */
 
 .aboutus-image{
-    width:400px; 
+    width:500px; 
 }
 
 /* .aboutus-para{
@@ -340,8 +374,8 @@ li{
 }
 
 .skill-section-card{
-    border: 2px solid #997c39;
-    background-color: #d9ceb5;
+    border: 2px solid var(--tertiary-tint);
+    background-color: var(--tertiary-tint);
     border-radius: 25px;
     width: 300px;
     padding: 40px 20px;
@@ -371,11 +405,12 @@ li{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    column-gap: 30px;
 }
 
 .project-card{
 
-    border: 2px solid #ced4da;
+    border: 2px solid var(--gray-tint);
     padding: 5px;
     border-radius: 10px;
     width: 500px;
