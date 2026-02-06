@@ -66,6 +66,8 @@ nav-section
 
 */
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -80,6 +82,12 @@ body{
     font-weight: 500;
     color: #495057 ;
 
+}
+
+.page-container{
+
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5{
