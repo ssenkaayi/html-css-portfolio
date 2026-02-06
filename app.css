@@ -331,6 +331,7 @@ li{
 
 .aboutus-heading{
     margin-bottom: 10px;
+    
 }
 
 /* .aboutus-content{
@@ -374,13 +375,12 @@ li{
 }
 
 .skill-section-card{
-    border: 2px solid var(--tertiary-tint);
-    background-color: var(--tertiary-tint);
+    border: 2px solid var(--primary-base);
+    background-color: var(--whit);
     border-radius: 25px;
     width: 300px;
     padding: 40px 20px;
-    /* background-color:#20c997 ; */
-
+    color: var(--primary-shade);
 }
 
 .card-heading{
@@ -426,6 +426,10 @@ li{
 
 /* --------- CONTACT SECTION --------- */
 
+.contact-heading{
+    margin-bottom: 50px;
+}
+
 .contact-section{
     display: flex;
     flex-direction: column;
@@ -436,9 +440,25 @@ li{
 
 }
 
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    border: 2px solid var(--gray-tint);
+    padding: 50px;
+}
+
 .form-field{
     display: flex;
     flex-direction: column;
+    /* width: 100%; */
+}
+
+.input-field{
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .form-btn{
