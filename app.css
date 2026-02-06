@@ -208,6 +208,7 @@ li{
     justify-content: space-between;
     align-items: center;
     background-color: #087f5b;
+    padding: 0 20px;
 }
 
 .nav-menu{
@@ -224,6 +225,7 @@ li{
     grid-template-columns: 1fr 2fr;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 }
 
 .hero-image{
@@ -290,6 +292,7 @@ li{
     align-items: center;
     background-color:#20c997 ;
     margin-bottom: 100px;
+    padding: 0 20px;
 }
 
 .aboutus-heading{
@@ -319,6 +322,7 @@ li{
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    padding: 0 20px;
 }
 
 .skill-section-heading{
@@ -352,7 +356,10 @@ li{
 /* --------- EXPERIENCE SECTION --------- */
 
 .project-section{
+    /* max-width: 1100px;
+    margin: 0 auto; */
     margin-bottom: 100px;
+    padding: 0 20px;
 }
 
 .project-heading{
@@ -362,7 +369,7 @@ li{
 .project-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
 }
 
@@ -390,6 +397,7 @@ li{
     margin-bottom: 100px;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 
 }
 
@@ -411,7 +419,8 @@ li{
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
-    gap:10px
+    gap:10px;
+    padding: 0 20px;
 }
 
 .footer-nav{
