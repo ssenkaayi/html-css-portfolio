@@ -73,20 +73,20 @@ nav-section
     /*----------- COLOR SECTION ----------- */
 
     --primary-base: #087f5b;
-    --primary-tint: #39997c;
-    --primary-shade: #066649;
+    --primary-tint: #6bb29d;
+    --primary-shade: #054c37;
 
-    --secondary-base:#5b087f;
-    --secondary-tint:#7c3999;
-    --secondary-shade:#490666;
+    --secondary-base:#08147f;
+    --secondary-tint:#6b72b2;
+    --secondary-shade:#050c4c;
 
-    --tertiary-base:#7f5b08;
-    --tertiary-tint:#997c39;
-    --tertiary-shade:#664906;
+    --tertiary-base:#7f0873;
+    --tertiary-tint:#b26bab;
+    --tertiary-shade:#4c0545;
 
     --gray-base:#495057;
-    --gray-tint:#ced4da;
-    --gray-shade:#212529;
+    --gray-tint:#92969a;
+    --gray-shade:#2c3034;
 
     --white:#ffffff;
     --black:#000000;
@@ -375,12 +375,10 @@ li{
 }
 
 .skill-section-card{
-    border: 2px solid var(--primary-base);
-    background-color: var(--whit);
+    border: 2px solid var(--primary-shade);
     border-radius: 25px;
     width: 300px;
     padding: 40px 20px;
-    color: var(--primary-shade);
 }
 
 .card-heading{
@@ -471,22 +469,33 @@ li{
 
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     align-items: center;
     justify-content: center;
     gap:10px;
-    padding: 0 20px;
+    padding: 50px;
+    background-color: var(--primary-base);
+    color: var(--white);
 }
 
 .footer-nav{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    
 
+}
+
+.footer-nav{
+    color: var(--white);
 }
 
 .footer-social-icons{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.social-icons{
+    color: var(--white);
 }
