@@ -68,6 +68,20 @@ nav-section
 
 /*------------------------  DECLAERING AND ASSIGNING GLOBAL VARIABLES ------------------------ */
 
+.page-container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html{
+
+    /* 10px / 16px = 62.5% */
+
+    font-size:62.5% ;
+
+}
+
 :root{
 
     /*----------- COLOR SECTION ----------- */
@@ -118,11 +132,6 @@ body{
 
 }
 
-.page-container{
-
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 h1,h2,h3,h4,h5{
 
