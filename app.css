@@ -252,6 +252,7 @@ li{
     align-items: center;
     background-color:var(--primary-base);
     padding: 0 2rem;
+    margin-bottom: var(--section-spacing);
 }
 
 .nav-menu{
@@ -262,27 +263,20 @@ li{
 }
 
 .hero-section{
-
-    height: calc( var(--section-height) - 8rem);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
+    margin-bottom: var(--section-spacing);
+    gap: 2rem;
 }
 
 .hero-image{
-    width: 30rem;
-}
-
-.hero-img-container{
-    width: 35rem;
-    height: 35rem;
-    border: solid 2px var(--primary-base);
-    border-radius: 17.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height:35rem;
+    width:35rem;
+    border: solid 2px var(--primary-shade);
+    border-radius: 50%;
 }
 
 .hero-h3{
@@ -296,7 +290,7 @@ li{
 
 .hero-para{
     margin-top: 4rem;
-    padding-right: 0.5rem;
+    padding:0 1rem;
 }
 
 .hero-links{
@@ -328,14 +322,13 @@ li{
 /* --------- ABOUT USS SECTION --------- */
 
 .aboutus-section{
-    height:var(--section-height);
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color:var(--primary-tint);
     margin-bottom:var(--section-spacing);
-    padding: 0 2rem;
+    padding: 10rem 2rem;
 }
 
 .aboutus-heading{
@@ -343,16 +336,9 @@ li{
     
 }
 
-/* .aboutus-content{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-content: center;
-    align-items: center;
-
-} */
-
 .aboutus-image{
-    width:50rem; 
+    width:40rem; 
+    
 }
 
 /* .aboutus-para{
@@ -380,25 +366,26 @@ li{
 
 .skill-section-cards{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
 .skill-section-card{
     border: 2px solid var(--primary-shade);
     border-radius: 2.5rem;
-    width: 30rem;
+    max-width: 30rem;
     padding: 4rem 2rem;
+    width: 100%;
 }
 
 .card-heading{
     margin-bottom: 1rem;
+    
 }
 
 /* --------- EXPERIENCE SECTION --------- */
 
 .project-section{
-    /* max-width: 1100px;
-    margin: 0 auto; */
     margin-bottom: 10rem;
     padding: 0 2rem;
 }
@@ -417,10 +404,10 @@ li{
 
 .project-card{
 
-    border: 2px solid var(--gray-tint);
+    border: 2px solid var(--primary-shade);
     padding: 5px;
     border-radius: 1rem;
-    width: 50rem;
+    max-width: 50rem;
 
 }
 
@@ -452,7 +439,7 @@ li{
     flex-direction: column;
     gap: 2rem;
     max-width: 50rem;
-    border: 2px solid var(--gray-tint);
+    border: 2px solid var(--primary-shade);
     padding: 5rem;
 }
 

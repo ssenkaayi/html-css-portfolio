@@ -69,3 +69,5 @@ PROJECT CHALLANGES
 e.g the download cv button was not recieving the state style class with out href attribute.
 
 2. Choosing color pallet 
+
+3. max-width and round borders
