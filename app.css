@@ -112,8 +112,6 @@ html{
     /*----------- SECTION HEIGHT ----------- */
     
     --section-height:100vh;
-
-
 }
 
 *{
@@ -131,7 +129,6 @@ body{
     color: #495057 ;
 
 }
-
 
 h1,h2,h3,h4,h5{
 
@@ -202,7 +199,6 @@ li{
 /* ------------------ COMPONENTS ------------------ */
 
 .nav-links{
-
     text-decoration: none;
     font-size: 1.6rem;
     
@@ -217,14 +213,12 @@ li{
 }
 
 .btn{
-    
     text-decoration: none;
     font-size: 1.6rem; 
     display: inline-block;
 }
 
 .btn-download-cv{
-
     padding: 1rem 2rem;
     border-radius: 5rem;    
 }
@@ -239,12 +233,33 @@ li{
     background-color: var(--primary-shade);
 }
 
+.ionicon{
+    fill: var(--primary-base);
+}
+
+.close-svg{
+    display: none;
+}
+
+.social-icons{
+    width: 5rem;
+}
+
+.footer-hero-icon{
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid var(--white);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ------------------ SECTIONS ------------------ */
 
 /* --------- NAV SECTION --------- */
 
-.nav-section{
-
+.desktop-nav{
     height: 8rem;
     display: flex;
     flex-direction: row;
@@ -256,10 +271,17 @@ li{
 }
 
 .nav-menu{
-
     display: flex;
     flex-direction: row;
     gap: 2rem;
+}
+
+.humberg-menu{
+    display: none;
+}
+
+.mobile-nav{
+    display: none;
 }
 
 .hero-section{
@@ -407,11 +429,13 @@ li{
     border: 2px solid var(--primary-shade);
     padding: 5px;
     border-radius: 1rem;
-    max-width: 50rem;
+    /* max-width: 60rem; */
 
 }
 
 .project-image{
+    
+    max-width: 70rem;
     width: 100%;
     border-radius: 1rem;
     
@@ -446,7 +470,7 @@ li{
 .form-field{
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .input-field{

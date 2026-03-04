@@ -54,7 +54,7 @@
 }
 
 /* small_tabs */
-/* 664 */
+
 @media(max-width:680px){
     /* font size : 7px */
 
@@ -63,6 +63,30 @@
         font-size: 43.75%;
     }
 
+    .nav-menu{
+        display: none;
+        position:fixed;
+        top:8rem;
+        background-color: var(--primary-base);
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .humber-icon{
+        width: 4rem;
+        padding: 2rem;
+    }
+
+    .humberg-menu{
+        display: block;
+        width: 5rem;
+        
+    }
+
+    .close-svg{
+        display: none;
+    }
+   
     .skill-section-cards{
         border: none;
         gap: 1rem;
