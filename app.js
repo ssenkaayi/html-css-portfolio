@@ -1,22 +1,26 @@
-const mobileMenu = document.querySelector('.humberg-menu');
-const mobileNavLinks = document.querySelector('.nav-menu');
-const closeMobileNavLinks = document.querySelector('.close-svg')
-let isHumbergClicked = false;
+const humbergmenu = document.querySelector('.humberg-icon');
+const mobileNavLinks = document.querySelector('.mobile-nav-links');
+const mobileCloseSvg = document.querySelector('.close-svg');
+const mobileNav = document.querySelector('.mobile-nav');
+let isHumbergmenuClicked = false;
 
-mobileMenu.addEventListener('click',(e)=>{
-    // console.log('hello');
-    isHumbergClicked = true;
-    if(isHumbergClicked){
-        // console.log('clicked is true');
-        mobileNavLinks.style.display = 'block';
-        mobileMenu.style.display = 'none'
-        closeMobileNavLinks.style.display = 'block'
-        isHumbergClicked = false;
-    }else{
-        // console.log('clicked not true');
-        mobileNavLinks.styles = 'none'
-    };
-    
+
+humbergmenu.addEventListener('click',(e)=>{
+    isHumbergmenuClicked = true;
+
+    if(isHumbergmenuClicked){
+        mobileNavLinks.style.display='flex';
+        mobileCloseSvg.style.display = 'block'; 
+        humbergmenu.style.display = 'none'
+        mobileNav.style.position = 'fixed'
+    }
 });
 
-// console.log('hello');
+mobileCloseSvg.addEventListener('click',()=>{
+    humbergmenu.style.display = 'block';
+    mobileCloseSvg.style.display = 'none'; 
+    mobileNavLinks.style.display='none';
+    mobileNav.style.position = 'static'
+});
+
+

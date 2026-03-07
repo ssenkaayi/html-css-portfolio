@@ -237,10 +237,6 @@ li{
     fill: var(--primary-base);
 }
 
-.close-svg{
-    display: none;
-}
-
 .social-icons{
     width: 5rem;
 }
@@ -274,10 +270,6 @@ li{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-}
-
-.humberg-menu{
-    display: none;
 }
 
 .mobile-nav{

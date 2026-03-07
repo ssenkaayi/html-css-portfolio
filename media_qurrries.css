@@ -63,28 +63,67 @@
         font-size: 43.75%;
     }
 
-    .nav-menu{
+    .desktop-nav{
         display: none;
-        position:fixed;
-        top:8rem;
-        background-color: var(--primary-base);
-        width: 100vh;
-        height: 100vh;
     }
 
-    .humber-icon{
-        width: 4rem;
-        padding: 2rem;
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: var(--section-spacing);
+        background-color:var(--primary-base);
     }
 
-    .humberg-menu{
-        display: block;
+    .nav-svg{
         width: 5rem;
         
     }
 
+    .nav-menu{
+        display: flex;
+    }
+
     .close-svg{
         display: none;
+    }
+
+    .nav-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding:2rem;
+        /* width:95%; */
+        /* margin: 0 auto; */
+ 
+    }
+
+    .mobile-nav-links{
+        display: none;
+        flex-direction: column;
+        height:100vh;
+        width: 100%;
+        gap:1rem;
+        
+    }
+
+    .nav-links{
+        padding: 2rem 1rem;
+        width: 100%;
+        border: 2px solid var(--primary-shade);
+        background-color: var(--primary-shade);
+        text-align: center;
+    }
+
+    a,li{
+        color: var(--white);
+        display: inline-block;
+
+    }
+
+    .mobile-logo{
+        color: var(--white);
     }
    
     .skill-section-cards{
@@ -97,7 +136,7 @@
     /* font size : 7px */
 
     html{
-        /* (7px/16px) *100% = 43.75%%*/
+        /* (7px/16px) *100% = 43.75 %*/
         font-size: 43.75%;
     }
 
