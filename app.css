@@ -140,15 +140,6 @@ h1,h2,h3,h4,h5{
 
 }
 
-/* p,a{
-
-    line-height: 1.25;
-    letter-spacing: 0;
-    font-weight: 500;
-    color: #343a40 ;
-
-} */
-
 h1{
 
     font-size: 6.2rem;
@@ -172,6 +163,10 @@ h4{
 
 h5{
     font-size: 2.4rem;
+}
+
+p,a{
+    color: #495057 
 }
 
 p{
@@ -214,8 +209,9 @@ li{
 
 .btn{
     text-decoration: none;
-    font-size: 1.6rem; 
-    display: inline-block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-size: 1.6rem;    
 }
 
 .btn-download-cv{
@@ -224,17 +220,15 @@ li{
 }
 
 .btn-download-cv:link , .btn-download-cv:visited{
-    color:var(--white);
-    background-color: var(--primary-base);
+    color:var(--primary-base);
+    background-color: var(--white);
+    border: 2px solid var(--primary-base);
 }
 
 .btn-download-cv:hover, .btn-download-cv:active{
     color:var(--white);
-    background-color: var(--primary-shade);
-}
-
-.ionicon{
-    fill: var(--primary-base);
+    background-color: var(--primary-base);
+    border: 2px solid var(--primary-base);
 }
 
 .social-icons{
@@ -309,31 +303,26 @@ li{
 
 .hero-links{
     margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
 
 .hero-social-links{
-
     margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;
+
 }
 
 .hero-social-icons{
-    width: 2rem;
-}
-
-.hero-icon{
     width: 4rem;
     height: 4rem;
-    border: 2px solid var(--primary-base);
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-/* --------- ABOUT USS SECTION --------- */
+/* --------- ABOUT US SECTION --------- */
 
 .aboutus-section{
     display: flex;
@@ -346,23 +335,16 @@ li{
 }
 
 .aboutus-heading{
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem;   
 }
 
 .aboutus-image{
-    width:40rem; 
-    
+    width:40rem;    
 }
-
-/* .aboutus-para{
-    padding-left: 20px;
-} */
 
 /* --------- SKILL SECTION --------- */
 
 .skill-section{
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     margin-bottom: 10rem;
@@ -421,18 +403,40 @@ li{
     border: 2px solid var(--primary-shade);
     padding: 5px;
     border-radius: 1rem;
-    /* max-width: 60rem; */
-
 }
 
-.project-image{
-    
+.project-image{ 
     max-width: 70rem;
     width: 100%;
     border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project-detail-heading{
+    margin-bottom: 1rem;
+}
+
+.project-detail-para{
+    margin-bottom: 1rem;
+}
+
+.project-detail-btn{
+    padding: 1rem 2rem;
+    border-radius: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.project-detail-btn:hover , .project-detail-btn:active{
+    color: var(--white);
+    background-color: var(--primary-shade);
     
 }
 
+.project-detail-btn:link , .project-detail-btn:visited{
+    color: var(--white);
+    background-color: var(--primary-base);
+    
+}
 
 /* --------- CONTACT SECTION --------- */
 
@@ -447,7 +451,6 @@ li{
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
-
 }
 
 .contact-form{
@@ -478,7 +481,6 @@ li{
 /* --------- FOOTER  SECTION --------- */
 
 .footer-section{
-
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
@@ -494,8 +496,6 @@ li{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    
-
 }
 
 .footer-nav{

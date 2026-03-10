@@ -51,6 +51,9 @@ Expirience
     project url
     project description
 
+    https://ssenkaayi.github.io/sekai-safaris/#/
+    https://ssenkaayi.github.io/future-fullstack/
+
 contact
 
     full names
@@ -71,3 +74,7 @@ e.g the download cv button was not recieving the state style class with out href
 2. Choosing color pallet 
 
 3. max-width and round borders
+
+4. anchor tag states
+
+5. development of Navigation on mobile screens
