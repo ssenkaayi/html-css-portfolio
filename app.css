@@ -426,17 +426,18 @@ li{
     margin-bottom: 1rem;
 }
 
+.project-detail-btn:link , .project-detail-btn:visited{
+    color: var(--white);
+    background-color: var(--primary-base);
+    
+}
+
 .project-detail-btn:hover , .project-detail-btn:active{
     color: var(--white);
     background-color: var(--primary-shade);
     
 }
 
-.project-detail-btn:link , .project-detail-btn:visited{
-    color: var(--white);
-    background-color: var(--primary-base);
-    
-}
 
 /* --------- CONTACT SECTION --------- */
 

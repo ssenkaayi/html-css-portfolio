@@ -78,3 +78,7 @@ e.g the download cv button was not recieving the state style class with out href
 4. anchor tag states
 
 5. development of Navigation on mobile screens
+
+6. The order in which the link state conditions are ordered matters, 
+if the hover and active state come before link and visited state, thier
+effects wont work.
