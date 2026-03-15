@@ -198,13 +198,20 @@ li{
     font-size: 1.6rem;
     
 }
+
+.link-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 .nav-links:link,.nav-links:visited{
     color:var(--white);
 
 }
 
 .nav-links:hover,.nav-links:active{
-    color:var(--gray-tint);
+    color:var(--white);
+    background-color: var(--primary-shade);   
 }
 
 .btn{
@@ -264,6 +271,7 @@ li{
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    align-items: center;
 }
 
 .mobile-nav{
@@ -511,4 +519,12 @@ li{
 
 .social-icons{
     color: var(--white);
+}
+
+.form-btn{
+    padding: 1rem 2rem;
+    border-radius: 1rem; 
+    /* margin-bottom: 1rem; */
+    background-color: var(--primary-tint);
+    border:solid 2px var(--primary-tint) ;
 }
