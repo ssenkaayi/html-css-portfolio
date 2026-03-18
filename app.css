@@ -200,7 +200,7 @@ li{
 }
 
 .link-btn{
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 1rem;
 }
 
@@ -519,6 +519,11 @@ li{
 
 .social-icons{
     color: var(--white);
+}
+
+.input-field{
+    border:solid 2px var(--black) ;
+    color: var(--black);
 }
 
 .form-btn{
